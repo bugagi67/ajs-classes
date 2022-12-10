@@ -1,7 +1,7 @@
 import Character from '../js/Character';
 
 test('test class Character', () => {
-  const lotriсk = new Character('lotriсk', 'Bowerman', 60, 80 );
+  const lotriсk = new Character('lotriсk', 'Bowerman', 60, 80);
   const expected = {
     name: 'lotriсk',
     type: 'Bowerman',
@@ -9,7 +9,7 @@ test('test class Character', () => {
     level: 1,
     atack: 60,
     defence: 80,
-  }
+  };
   expect(lotriсk).toEqual(expected);
 });
 
@@ -30,4 +30,3 @@ test('test of the class type being entered', () => {
     return lotriсk;
   }).toThrow(new Error('Введите корректный тип персонажа'));
 });
-

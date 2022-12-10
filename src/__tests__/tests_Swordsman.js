@@ -9,7 +9,7 @@ test('test class Bowerman', () => {
     level: 1,
     atack: 40,
     defence: 10,
-  }
+  };
   expect(swordsman).toEqual(expected);
 });
 
@@ -30,4 +30,3 @@ test('test of the class type being entered', () => {
     return swordsman;
   }).toThrow(new Error('Введите корректный тип персонажа'));
 });
-

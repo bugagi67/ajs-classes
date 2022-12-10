@@ -9,7 +9,7 @@ test('test class Daemon', () => {
     level: 1,
     atack: 10,
     defence: 40,
-  }
+  };
   expect(daemon).toEqual(expected);
 });
 
@@ -30,4 +30,3 @@ test('test of the class type being entered', () => {
     return daemon;
   }).toThrow(new Error('Введите корректный тип персонажа'));
 });
-

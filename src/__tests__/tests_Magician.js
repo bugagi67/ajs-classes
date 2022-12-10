@@ -9,7 +9,7 @@ test('test class Magician', () => {
     level: 1,
     atack: 10,
     defence: 40,
-  }
+  };
   expect(magician).toEqual(expected);
 });
 
@@ -30,4 +30,3 @@ test('test of the class type being entered', () => {
     return magician;
   }).toThrow(new Error('Введите корректный тип персонажа'));
 });
-
